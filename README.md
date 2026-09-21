@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d9488,100:5eead4&height=180&section=header&text=Pemrograman%20Berorientasi%20Objek&fontSize=34&fontColor=ffffff&fontAlignY=40&desc=Property%20Visibility%20%26%20Enkapsulasi%20di%20Python&descSize=16&descAlignY=62" alt="banner" />
+<h1>Pemrograman Berorientasi Objek</h1>
+
+<img src="https://img.shields.io/badge/Property%20Visibility%20%26%20Enkapsulasi%20di%20Python-0d9488?style=for-the-badge" alt="subjudul" />
 
 ![Python](https://img.shields.io/badge/Python-3.12-14b8a6?style=for-the-badge&logo=python&logoColor=white)
 ![Topik](https://img.shields.io/badge/Topik-Enkapsulasi-0d9488?style=for-the-badge)
@@ -9,9 +11,11 @@
 
 </div>
 
+---
+
 ## 👩‍💻 Identitas
 
-| | |
+| Data | Keterangan |
 |---|---|
 | **Nama** | Mentari Kristen Rachaelea Toreh |
 | **Kelas** | B |
@@ -31,6 +35,9 @@ Fitur enkapsulasi di dalam `Company`:
 - 🔒 `self.__employees` adalah list private, tidak bisa diakses langsung dari luar class.
 - ✅ `add_employee()` memakai `isinstance()` supaya hanya object `Employee` yang bisa masuk.
 - 🔐 `__calculate_payroll()` adalah private method yang hanya dipanggil dari dalam class.
+
+> [!NOTE]
+> Python tidak punya keyword `private`. Awalan `__` bekerja lewat *name mangling*, sebagai pelindung dari akses tidak sengaja.
 
 ## ▶️ Cara menjalankan
 
@@ -57,9 +64,3 @@ Gaji: Rp6,000,000
 ---------------------------
 Total Payroll: Rp15,500,000
 ```
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5eead4,100:0d9488&height=100&section=footer" alt="footer" />
-
-</div>
